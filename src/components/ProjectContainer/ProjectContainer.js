@@ -7,6 +7,10 @@ const ProjectContainer = ({ project }) => (
   <div className='project'>
     <h3>{project.name}</h3>
 
+    {project.timezone && (
+      <p className='project__timezone'>{project.timezone}</p>
+    )}
+
     <p className='project__description'>{project.description}</p>
     {project.stack && (
       <ul className='project__stack'>
@@ -31,6 +35,15 @@ const ProjectContainer = ({ project }) => (
     {project.livePreview && (
       <a
         href={project.livePreview}
+        aria-label='live preview'
+        className='link link--icon'
+      >
+        <LaunchIcon />
+      </a>
+    )}
+    {project.livePreview2 && (
+      <a
+        href={project.livePreview2}
         aria-label='live preview'
         className='link link--icon'
       >
