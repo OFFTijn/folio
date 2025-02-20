@@ -94,13 +94,12 @@ const skills = [
   'JavaScript',
   'TypeScript',
   'React',
-  'Redux',
-  'SASS',
-  'Material UI',
   'Git',
   'CI/CD',
-  'Jest',
-  'Enzyme',
+  'UI/UX Design',
+  'Figma',
+  'C#',
+  'SQL',
 ]
 
 const contact = {
