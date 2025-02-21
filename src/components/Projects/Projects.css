@@ -4,4 +4,5 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
   grid-gap: 2em;
+  align-items: stretch; /* Ensures that the cards fill their grid cells equally */
 }
