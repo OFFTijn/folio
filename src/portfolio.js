@@ -9,7 +9,7 @@ const about = {
   name: 'Tijn Mestrom',
   roles: ['Software Developer', 'UX-Designer', 'Student', 'Front-End Developer'],
   description:
-    'Driven third-year HBO-ICT student with a strong passion for design and technology. Always seeking new challenges to develop and improve my skills, eager to contribute to innovative projects.',
+    'Driven fourth-year HBO-ICT student with a strong passion for design and technology. Always seeking new challenges to develop and improve my skills, eager to contribute to innovative projects.',
   resume: '/folio/CV_TijnMestrom2025.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/tijn-mestrom-0a5953273/',
